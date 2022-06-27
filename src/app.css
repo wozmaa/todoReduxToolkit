@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(1, 1, 87);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.form {
+    display: flex;
+    gap: 5%;
+}
+.form input {
+    width: 250px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+}
+
+.form button {
+    width: 80px;
+    height: 38px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(4, 4, 184, 0.861);
+    color: white;
+}
+
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    height: 30px;
+    color: aliceblue;
+    font-size: 19px;
+    border: 1px solid antiquewhite;
+    border-radius: 8px;
+    margin-top: 5%;
+    border-color: rgb(56, 61, 225);
+}
+.todo button {
+    border-radius: 8px;
+}
+
+
+.completedActive {
+    background-color: aliceblue;
+}
+
+.completedNotActive {
+    background-color: yellow;
+}
